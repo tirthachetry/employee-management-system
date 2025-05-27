@@ -1,7 +1,7 @@
 package com.ai.ems.dto;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
+import lombok.NonNull;
 
-public record DependentDTO (@Id @GeneratedValue String name, String relationship) {
+public record DependentDTO (Long id, @NotBlank String name,@NotBlank @NonNull String relationship) {
 }

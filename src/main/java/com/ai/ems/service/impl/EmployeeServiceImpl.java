@@ -35,7 +35,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     private EmployeeDTO mapToDTO(Employee employee) {
         return new EmployeeDTO(employee.getId(), employee.getName(), employee.getDependents().stream().map(
-                dep -> new DependentDTO(dep.getName(), dep.getRelationship())
+                dep -> new DependentDTO(dep.getId(), dep.getName(), dep.getRelationship())
         ).collect(Collectors.toList()));
     }
 
