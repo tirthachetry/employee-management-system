@@ -221,3 +221,17 @@ Contributions are welcome! Please follow these steps:
 15. Engage with the community by responding to comments and feedback.
 16. Stay updated with the project's progress and discussions.
 17. Be respectful and collaborative in all interactions.
+
+
+## Future Tasks @subhamkp
+
+- **Authentication and Authorization**: Implement user authentication and role-based access control.
+- **Pagination and Sorting**: Add support for paginated and sorted responses for large datasets.
+- **Search Functionality**: Enable advanced search capabilities for employees and dependents.
+- **API Documentation**: Integrate Swagger or OpenAPI for better API documentation.
+- **Unit and Integration Tests**: Increase test coverage for all services and controllers.
+- **Database Migration Tool**: Use Flyway or Liquibase for managing database schema changes.
+- **Deployment**: Set up CI/CD pipelines and deploy the application to a cloud platform.
+- **Internationalization (i18n)**: Add support for multiple languages.
+- **Frontend Integration**: Develop a frontend application to interact with the backend APIs.
+- **Performance Optimization**: Optimize database queries and application performance for scalability.
